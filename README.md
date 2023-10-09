@@ -4,6 +4,7 @@ Github introduction
 
 https://joejcollins.github.io/david-kano/
 
+## Slide Control
 
 The default keyboard shortcuts are:
 
