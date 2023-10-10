@@ -1,4 +1,4 @@
 {
     "workbench.colorTheme": "Solarized Light",
-    "editor.minimap.autohide": true
+    "editor.minimap.enabled": false
 }
