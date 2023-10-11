@@ -12,7 +12,17 @@
 		"ghcr.io/devcontainers-contrib/features/starship:1": {
 			"version": "latest"
 		}
-	}
+	},
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": [
+                "ms-python.pylint",
+                "ms-python.python",
+                "streetsidesoftware.code-spell-checker"
+            ]
+        }
+    },
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
