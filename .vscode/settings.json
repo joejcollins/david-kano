@@ -1,5 +1,23 @@
 {
     "workbench.colorTheme": "Solarized Light",
     "editor.minimap.enabled": false,
-    "python.terminal.activateEnvironment": true
+    "python.testing.pytestArgs": [
+      "./tests/"
+    ],
+    "editor.detectIndentation": true,
+    "python.languageServer": "Pylance",
+    "python.defaultInterpreterPath": ".venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.black-formatter",
+      "editor.formatOnSave": true,
+    },
+    "task.allowAutomaticTasks": "on",
+    "terminal.integrated.shellIntegration.enabled": true,
+    "terminal.integrated.profiles.linux": {
+      "bash": {
+        "path": "/bin/bash",
+        "args": ["-l"]
+      },
+    }
 }

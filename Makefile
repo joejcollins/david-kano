@@ -3,6 +3,8 @@
 
 clean:  # Remove the virtual environment.
 	rm -rf .venv
+	find . -name "*.pyc" -exec rm -f {} \;
+	find . -type f -name "*.py[co]" -delete -or -type d -name "__pycache__" -delete
 
 .PHONY: help
 help:  # Show the help for each of the recipes.
@@ -21,3 +23,6 @@ test: # Run the integration tests.
 venv:  # Created the virtual environment
 	python -m venv .venv
 	.venv/bin/python -m pip install --requirement requirements.txt
+
+web:  # Run the web server and serve the docs
+	python ./src/main.py
