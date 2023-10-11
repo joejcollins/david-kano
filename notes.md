@@ -33,4 +33,5 @@ Our objective will be to get everyone up and running with a Github account and (
   * Python web server server
   * Edit the webpage
 
-* Discussion
+
+
