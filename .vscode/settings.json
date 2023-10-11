@@ -1,7 +1,5 @@
 {
     "workbench.colorTheme": "Solarized Light",
     "editor.minimap.enabled": false,
-    "[python]": {
-
-    }
+    "python.terminal.activateEnvironment": true
 }
