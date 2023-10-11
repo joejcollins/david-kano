@@ -65,11 +65,12 @@
 					<ul>
 						<li>...and a repository</li>
 					</ul>
+					<li title="For 2FA">Maybe your phone</li>
 				</ol>
 			</section>
 			<section>
 				<section>
-					<h2>Getting Started Demo</h2>
+					<h2>Demo</h2>
 					<ol>
 						<li title="The remote location on Github where you store your files.">Create a repo</li>
 						<li title="Get a copy of the files from Github, you are actually getting a copy of all the changes that have ever been made.">Checkout the repo</li>
@@ -80,26 +81,62 @@
 						<li title="...because you are no longer responsible for keeping files, your workstation is disposable."></title>Delete it all</li>
 					</ol>
 				</section>
-
+				<section>
+					<h2>Create a Repository</h2>
+					<ol>
+						<li>Go to <a href="https://github.com/">https://github.com/</a></li>
+						<li>Log in</li>
+						<li>New or + > New repository</li>
+						<li>Repository name</li>
+						<li>Public or Private</li>
+						<li>Read me file</li>
+						<li>Git .ignore</li>
+						<li>License</li>
+					</ol>
+				</section>
 				<section>
 					<h2>With VSCode</h2>
 					<ol>
+						<li>View > Source Control</li>
+						<li>Clone from Github</li>
+						<li>Choose your repo</li>
+						<li>Select a destination</li>
+						<li>Open the repo</li>
+						<li>Change a file or add a file</li>
+						<li>Go to version control and review the change</li>
+						<li>Stage > Comment and Commit > Push</li>
+						<li>Visit <a href="https://github.com/">https://github.com/</a> and see the history</li>
+						<li>Use Explorer or Finder to delete the local files</li>
 					</ol>
 				</section>
 				<section>
 					<h2>With the Command Line</h2>
+					<ul>
+						<li>Get the repo name from <a href="https://github.com/">https://github.com/</a></li>
+					</ul>
 					<pre>
 						<code data-trim data-noescape>
-							git log --pretty=oneline
-							git log --graph --abbrev-commit  --pretty=oneline
+							cd working-directory
+							git clone https://github.com/user-name/your-repo.git
+							cd your-repo
+							Echo This is some Text > new_file.txt
+							git status
+							git add .
+							git status
+							git commit -m "This is a new file"
+							git push
+							git log
+							cd ..
+							rm -rf your-repo
 						</code>
 					</pre>
 				</section>
 			</section>
 			<section>
-				<h2>Getting Started</h2>
+				<h2>Working Together</h2>
 				<ul>
-					<li>Get a logon</li>
+					<li>Go to your repo <a href="https://github.com/">https://github.com/</a></li>
+					<li>Sharing a Repo</li>
 				</ul>
 				<aside class="notes">
 					<ul>
@@ -107,7 +144,14 @@
 				</aside>
 			</section>
 			<section>
+				<h2>Forking Work</h2>
 
+			</section>
+			<section>
+				<h2>Codespaces</h2>
+				<ul>
+					<li>Cloud Development Environment</li>
+				</ul>
 			</section>
 		</div>
 	</div>
